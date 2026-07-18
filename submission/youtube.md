@@ -16,6 +16,8 @@ Source: https://github.com/kp-chen/clinical-referral-copilot
 
 Built with GPT-5.6, the OpenAI Responses API, Codex, Next.js, React, TypeScript, and Vercel.
 
+The narration is AI-generated using OpenAI `gpt-4o-mini-tts` with the Cedar voice.
+
 Synthetic demonstration only. Not a medical device. Not for clinical use. No real patient data is used.
 
 ## Chapters

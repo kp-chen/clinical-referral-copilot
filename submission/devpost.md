@@ -80,6 +80,7 @@ A real clinical pilot would require locally approved referral policies, represen
 
 - OpenAI GPT-5.6
 - OpenAI Responses API
+- OpenAI `gpt-4o-mini-tts` with the Cedar voice
 - Structured Outputs / JSON Schema
 - Codex
 - Next.js 16
