@@ -55,6 +55,7 @@ npm run dev
 ```
 
 Open <http://localhost:3000>. Without an API key, the application remains fully testable using its deterministic demonstration engine.
+Live analysis requires a key from an OpenAI Platform project with available API quota. If the upstream model is unavailable, the interface visibly labels the deterministic fallback as `DEMO ENGINE`.
 
 ## Verify
 

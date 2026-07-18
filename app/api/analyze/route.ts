@@ -1,6 +1,7 @@
 import OpenAI from "openai";
 import { NextRequest, NextResponse } from "next/server";
 import { hasGroundedSourceQuotes } from "../../lib/analysis-validation";
+import { modelFailureAudit } from "../../lib/audit-log";
 import { checkRateLimit } from "../../lib/rate-limit";
 import { detectPotentialIdentifier, guardInput } from "../../lib/security";
 
@@ -129,7 +130,7 @@ export async function POST(request: NextRequest) {
     }
     return NextResponse.json({ ...parsed, demoMode: false, model: response.model });
   } catch (error) {
-    console.error("OpenAI analysis failed", error);
+    console.error(JSON.stringify(modelFailureAudit(error)));
     return NextResponse.json({ ...demoAnalysis(text), fallbackReason: "Live model unavailable; deterministic demonstration shown." });
   }
 }
