@@ -16,11 +16,11 @@ The model cannot take clinical action. A clinician approves, edits, or rejects, 
 
 5
 00:00:54,000 --> 00:01:07,000
-The evaluation view separates evidence from persuasion. This tiny synthetic gold set is explicitly illustrative: four urgency labels agree, while one disagreement remains visible for review.
+The evaluation view separates evidence from persuasion. This tiny synthetic gold set is illustrative: four labels agree, while one disagreement remains visible.
 
 6
 00:01:07,000 --> 00:01:22,000
-Identifiers and high-confidence prompt-injection patterns are blocked before any model call. Evidence appears only when every quoted phrase exists in the supplied narrative.
+Identifiers, phone numbers, email addresses, and high-confidence prompt-injection patterns are blocked before any model call. Evidence appears only when every quoted phrase exists in the supplied narrative.
 
 7
 00:01:22,000 --> 00:01:37,000
