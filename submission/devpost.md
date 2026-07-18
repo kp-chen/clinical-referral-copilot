@@ -20,7 +20,7 @@ https://clinical-referral-copilot.vercel.app
 
 YouTube URL: **pending upload**
 
-Local verified file: `submission/clinical-referral-copilot-demo.mp4` (1 minute 37 seconds, 1920×1080)
+Local verified file: `submission/clinical-referral-copilot-demo.mp4` (1 minute 52 seconds, 1920×1080, selectable English captions)
 
 ## Codex Session ID
 

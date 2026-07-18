@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#1a3955" stroke-width="1" opacity="0.34"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#000814" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#061a32"/>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  <circle cx="1650" cy="116" r="300" fill="#0a7c86" opacity="0.12"/>
+  <circle cx="180" cy="980" r="260" fill="#24b8c6" opacity="0.08"/>
+
+  <g transform="translate(92 78)">
+    <rect x="0" y="0" width="76" height="76" rx="18" fill="#0c2c4c" stroke="#2eb8c4" stroke-width="2"/>
+    <path d="M17 42h12l7-19 12 39 9-27 6 12h10" fill="none" stroke="#f3fbff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="100" y="31" fill="#f3fbff" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">Clinical Referral Copilot</text>
+    <text x="100" y="60" fill="#8fb3c7" font-family="Arial, Helvetica, sans-serif" font-size="18">Transparent triage decision support</text>
+  </g>
+
+  <g transform="translate(110 245)">
+    <text x="0" y="0" fill="#36c0ca" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="4">BUILT WITH CODEX</text>
+    <text x="0" y="92" fill="#f6fbff" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="700">From clinical concept</text>
+    <text x="0" y="168" fill="#f6fbff" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="700">to verified prototype.</text>
+    <rect x="0" y="220" width="96" height="5" rx="2.5" fill="#2eb8c4"/>
+
+    <text x="0" y="302" fill="#a8c2d2" font-family="Arial, Helvetica, sans-serif" font-size="24">Human decisions set the clinical boundary, synthetic-only scope,</text>
+    <text x="0" y="338" fill="#a8c2d2" font-family="Arial, Helvetica, sans-serif" font-size="24">product direction and final visual system.</text>
+  </g>
+
+  <g transform="translate(990 225)" filter="url(#shadow)">
+    <rect x="0" y="0" width="820" height="670" rx="30" fill="#f7fbfd"/>
+    <text x="62" y="76" fill="#143550" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="3">CODEX ACCELERATED</text>
+
+    <g transform="translate(62 128)">
+      <text x="0" y="38" fill="#07868e" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">01</text>
+      <text x="96" y="31" fill="#102b45" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">Clean-room implementation</text>
+      <text x="96" y="70" fill="#587083" font-family="Arial, Helvetica, sans-serif" font-size="21">Fresh Next.js + TypeScript product build</text>
+      <line x1="0" y1="112" x2="696" y2="112" stroke="#d6e4eb" stroke-width="2"/>
+    </g>
+
+    <g transform="translate(62 314)">
+      <text x="0" y="38" fill="#07868e" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">02</text>
+      <text x="96" y="31" fill="#102b45" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">Safety boundary</text>
+      <text x="96" y="70" fill="#587083" font-family="Arial, Helvetica, sans-serif" font-size="21">Identifier guards · injection blocking · grounding</text>
+      <line x1="0" y1="112" x2="696" y2="112" stroke="#d6e4eb" stroke-width="2"/>
+    </g>
+
+    <g transform="translate(62 500)">
+      <text x="0" y="38" fill="#07868e" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">03</text>
+      <text x="96" y="31" fill="#102b45" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">Verification workflow</text>
+      <text x="96" y="70" fill="#587083" font-family="Arial, Helvetica, sans-serif" font-size="21">API · browser · responsive UI · regression checks</text>
+    </g>
+  </g>
+
+  <g transform="translate(110 982)">
+    <circle cx="10" cy="-7" r="6" fill="#2eb8c4"/>
+    <text x="30" y="0" fill="#8fb3c7" font-family="Arial, Helvetica, sans-serif" font-size="19">OpenAI Build Week 2026</text>
+    <text x="1635" y="0" text-anchor="end" fill="#8fb3c7" font-family="Arial, Helvetica, sans-serif" font-size="19">Synthetic data only</text>
+  </g>
+</svg>

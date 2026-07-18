@@ -28,11 +28,12 @@ Synthetic demonstration only. Not a medical device. Not for clinical use. No rea
 - 00:42 Clinician decision and audit trail
 - 00:54 Illustrative evaluation
 - 01:07 Safety boundaries and blocked input
-- 01:22 Closing safety statement
+- 01:22 How Codex accelerated the build
+- 01:37 Closing safety statement
 
 ## Upload settings
 
-- Visibility: Unlisted until the Devpost submission is ready; Public only if the competition rules require it.
+- Visibility: Public, as required by the OpenAI Build Week submission rules.
 - Audience: Not made for kids.
 - Thumbnail: `submission/clinical-referral-copilot-thumbnail-1280x720.png`
 - Captions: `submission/demo-subtitles.srt`

@@ -1,10 +1,10 @@
 1
 00:00:00,000 --> 00:00:08,000
-Referral triage is high stakes. Clinical Referral Copilot offers a safer pattern: AI structures; clinicians decide.
+Referral triage is high stakes. This copilot offers a pattern: AI structures; clinicians decide.
 
 2
 00:00:08,000 --> 00:00:23,000
-Using only synthetic gastroenterology referrals, a clinician reviews the narrative and asks for a structured urgency recommendation. The server-side key never reaches the browser.
+Using only synthetic gastroenterology referrals, a clinician reviews the narrative and asks for a structured urgency recommendation. The analysis runs securely on the server, so the API key never reaches the browser.
 
 3
 00:00:23,000 --> 00:00:42,000
@@ -12,7 +12,7 @@ GPT five point six uses the OpenAI Responses API with strict Structured Outputs 
 
 4
 00:00:42,000 --> 00:00:54,000
-The model cannot take clinical action. A clinician approves, edits, or rejects, while the audit records that decision without storing the referral narrative.
+The model cannot take clinical action. A clinician must approve, edit, or reject every recommendation, while the audit records that decision without storing the underlying referral narrative.
 
 5
 00:00:54,000 --> 00:01:07,000
@@ -20,8 +20,12 @@ The evaluation view separates evidence from persuasion. This tiny synthetic gold
 
 6
 00:01:07,000 --> 00:01:22,000
-Identifiers, phone numbers, email addresses, and high-confidence prompt-injection patterns are blocked before any model call. Evidence appears only when every quoted phrase exists in the supplied narrative.
+Identifiers, phone numbers, email addresses, and high-confidence prompt-injection patterns are blocked before any model call. Evidence appears only when every quoted phrase is verified for exact matching against the supplied narrative.
 
 7
 00:01:22,000 --> 00:01:37,000
-This is not a medical device and makes no clinical-performance claim. It is a Build Week prototype of transparent, clinician-in-the-loop reasoning: synthetic data, inspectable evidence, bounded agency, and human authority.
+Codex helped turn the clinical concept into a clean-room Next.js build, shape the clinician-in-the-loop boundary, harden identifier and prompt-injection guards, and verify the API and browser workflow.
+
+8
+00:01:37,000 --> 00:01:52,000
+This is not a medical device and makes no clinical-performance claim. It is a Build Week prototype demonstrating transparent, clinician-in-the-loop reasoning: synthetic data, inspectable evidence, deliberately bounded agency, and final human authority.
