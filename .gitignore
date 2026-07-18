@@ -1,0 +1,14 @@
+node_modules
+.next
+.env*
+!.env.example
+npm-debug.log*
+.DS_Store
+.npm-cache
+.npm-home
+.browser-home
+.browser-runtime
+.test-dist
+.dev-*.log
+.browser*.log
+browser-check*.png
