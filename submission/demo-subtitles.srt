@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:08,000
+Referral triage is repetitive, high stakes, and difficult to explain after the decision. Clinical Referral Copilot explores a safer pattern: AI structures; clinicians decide.
+
+2
+00:00:08,000 --> 00:00:23,000
+The demonstration uses only synthetic gastroenterology referrals. A clinician selects a case, reviews the narrative, and asks for a structured urgency recommendation.
+
+3
+00:00:23,000 --> 00:00:42,000
+GPT-5.6 runs through the OpenAI Responses API with strict Structured Outputs and store set to false. Every reason can be traced to an exact source phrase.
+
+4
+00:00:42,000 --> 00:00:54,000
+The model cannot take clinical action. A clinician must approve, edit, or reject, and the session audit records the decision without storing the referral narrative.
+
+5
+00:00:54,000 --> 00:01:07,000
+The evaluation view keeps evidence separate from persuasion. This tiny synthetic gold set is explicitly illustrative, and one disagreement remains visible for review.
+
+6
+00:01:07,000 --> 00:01:22,000
+Identifiers and high-confidence prompt-injection patterns are blocked before any model call. Evidence is rendered only when every quoted phrase exists in the narrative.
+
+7
+00:01:22,000 --> 00:01:37,000
+This is not a medical device. It is a Build Week prototype of transparent, clinician-in-the-loop reasoning: synthetic data, inspectable evidence, bounded agency, and human authority.

@@ -4,6 +4,9 @@ A clinician-in-the-loop referral triage demonstration built for **OpenAI Build W
 
 > **Synthetic data only. Not a medical device. Not for clinical use.**
 
+- **Live demonstration:** https://clinical-referral-copilot.vercel.app
+- **Build Week submission materials:** [`submission/`](submission/)
+
 ![Clinical Referral Copilot workspace](public/clinical-referral-copilot-workspace.png)
 
 ## Why this exists
