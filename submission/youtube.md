@@ -33,7 +33,7 @@ Synthetic demonstration only. Not a medical device. Not for clinical use. No rea
 
 ## Upload settings
 
-- Visibility: Public, as required by the OpenAI Build Week submission rules.
+- Visibility: Unlisted. Devpost's 18 July deadline reminder explicitly confirmed that Unlisted videos are acceptable; signed-out playback was verified before submission.
 - Audience: Not made for kids.
 - Thumbnail: `submission/clinical-referral-copilot-thumbnail-1280x720.png`
 - Captions: `submission/demo-subtitles.srt`

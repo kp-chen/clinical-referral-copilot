@@ -1,4 +1,12 @@
-# Devpost submission draft
+# Devpost submission
+
+## Submission status
+
+- Status: **Submitted**
+- Track: **Work & Productivity**
+- Devpost project: https://devpost.com/software/clinical-referral-copilot
+- Submission ID: `1103302`
+- Submitted: 19 July 2026 at 08:16 Singapore time
 
 ## Project name
 
@@ -18,7 +26,7 @@ https://clinical-referral-copilot.vercel.app
 
 ## Video
 
-YouTube URL: **pending upload**
+YouTube URL: https://youtu.be/Den3FYaTy78 (Unlisted; link-accessible)
 
 Local verified file: `submission/clinical-referral-copilot-demo.mp4` (1 minute 52 seconds, 1920×1080, selectable English captions)
 
